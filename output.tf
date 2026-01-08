@@ -1,12 +1,12 @@
 
-output "publicIP" {
-  value = aws_instance.microType.*.public_ip
-}
+#output "publicIP" {
+#  value = aws_instance.microType.*.public_ip
+#}
 
-output "id" {
-  value = aws_instance.microType.*.id
-}
+#output "id" {
+#  value = aws_instance.microType.*.id
+#}
 
-output "CSWvmid" {
-  value = aws_instance.microType.*.id
-}
+#output "CSWvmid" {
+#  value = aws_instance.microType.*.id
+#}
