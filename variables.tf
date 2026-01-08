@@ -10,5 +10,5 @@ variable "vmType" {
 
 variable "vmName" {
   type = string
-  default = "CSW-VM1"
+  default = "CSW-VM1-DAY3"
 }
