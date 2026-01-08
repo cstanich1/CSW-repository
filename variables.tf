@@ -1,14 +1,14 @@
 variable "ami" {
-  type = string
+  type    = string
   default = "ami-068c0051b15cdb816"
 }
 
 variable "vmType" {
-  type = string
+  type    = string
   default = "t3.micro"
 }
 
 variable "vmName" {
-  type = string
+  type    = string
   default = "CSW-VM1-DAY3"
 }

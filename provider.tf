@@ -5,13 +5,13 @@ terraform {
       version = "6.27.0"
     }
   }
-backend  "s3" {
-    bucket = "csw-terraform"
-    key = "dev/cws/terraform.tfstate"
-    encrypt = true
-    region = "us-west-1"
+  backend "s3" {
+    bucket         = "csw-terraform"
+    key            = "dev/cws/terraform.tfstate"
+    encrypt        = true
+    region         = "us-west-1"
     dynamodb_table = "csw-locking-table"
-}      
+  }
 }
 
 
