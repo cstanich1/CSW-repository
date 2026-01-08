@@ -1,8 +1,12 @@
 
 output "publicIP" {
-  value = aws_instance.microType.public_ip
+  value = aws_instance.microType.*.public_ip
 }
 
 output "id" {
-  value = aws_instance.microType.id
+  value = aws_instance.microType.*.id
+}
+
+output "CSWvmid" {
+  value = aws_instance.microType.*.id
 }
